@@ -1,10 +1,13 @@
-import { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
+import Hero from "./components/landingPage/Hero";
+import Category from "./components/landingPage/Category";
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <>
+     <Hero/> 
+     <Category/>
+    </>
   );
 }
 
